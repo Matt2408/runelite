@@ -69,9 +69,9 @@ import net.runelite.client.ui.overlay.infobox.InfoBoxManager;
 import net.runelite.client.util.Text;
 
 @PluginDescriptor(
-	name = "Chambers Of Xeric",
-	description = "Show helpful information for the Chambers of Xeric raid",
-	tags = {"combat", "raid", "overlay"}
+		name = "Chambers Of Xeric",
+		description = "Show helpful information for the Chambers of Xeric raid",
+		tags = {"combat", "raid", "overlay"}
 )
 @Slf4j
 public class RaidsPlugin extends Plugin
@@ -255,9 +255,9 @@ public class RaidsPlugin extends Plugin
 							.build();
 
 					chatMessageManager.queue(QueuedMessage.builder()
-						.type(ChatMessageType.CLANCHAT_INFO)
-						.runeLiteFormattedMessage(chatMessage)
-						.build());
+							.type(ChatMessageType.CLANCHAT_INFO)
+							.runeLiteFormattedMessage(chatMessage)
+							.build());
 				}
 			}
 		}
